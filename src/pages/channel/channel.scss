@@ -1,4 +1,58 @@
-.channelContainer {
-    width: 100%;
-    display: flex;
+@import "../../base.scss";
+
+.channelHeader {
+    height: 20vh;
+    background-color: rgba(0, 0, 0, 0.1);
+
+    &__left {
+        img {
+            width: 6rem;
+            height: 6rem;
+            border-radius: 50%;
+        }
+    }
+
+    &__details {
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        span {
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+    }
+
+    button {
+        border: none;
+        background-color: rgb(202, 12, 12);
+        color: #fff;
+        border-radius: 0;
+        cursor: pointer;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+
+        &:focus {
+            border: none;
+            outline: none;
+        }
+    }
+}
+
+@media (max-width: $medium-breakpoint) {
+    .channelHeader {
+        height: 15vh;
+        padding: 1.1rem 0;
+
+        img {
+            width: 50px;
+            height: 50px;
+        }
+        h3 {
+            font-size: 1rem;
+            margin: 0;
+        }
+    }
 }

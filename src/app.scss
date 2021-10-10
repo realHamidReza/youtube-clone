@@ -1,5 +1,19 @@
 * {
     font-family: "Roboto", sans-serif;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+.app__container {
+    display: flex;
+    margin-top: 10vh;
+}
+
+.app__main {
+    overflow-y: scroll;
+}
+
+.watch__main {
+    padding: 0 2rem;
 }

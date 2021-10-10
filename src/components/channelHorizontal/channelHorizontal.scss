@@ -1,0 +1,47 @@
+@import "../../base.scss";
+
+.channelHorizontal {
+    width: 100%;
+    flex-wrap: nowrap;
+    cursor: pointer;
+
+    &__left {
+        text-align: center;
+    }
+
+    &__thumbnail {
+        border-radius: 50%;
+        object-fit: contain;
+        width: 50%;
+
+        &-wrapper {
+            width: 100%;
+        }
+    }
+
+    &__right {
+        padding-right: 1rem;
+        padding-left: 0;
+        @include line-clamp(2);
+    }
+
+    &__title {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    &__desc {
+        font-size: 0.9rem;
+        margin-top: 1rem;
+        @include line-clamp(2);
+    }
+
+    &__details {
+        font-size: 0.8rem;
+    }
+
+    &__items {
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+}

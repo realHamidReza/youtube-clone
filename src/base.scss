@@ -1,0 +1,19 @@
+$text-color: #606060;
+
+$small-breakpoint: 520px;
+$medium-breakpoint: 1224px;
+
+body {
+    background-attachment: fixed;
+}
+
+@mixin line-clamp($number) {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: $number;
+    -webkit-box-orient: vertical;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}

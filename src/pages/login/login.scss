@@ -1,0 +1,39 @@
+.login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__container {
+        background-color: #f4f4f4;
+        padding: 2rem 4rem;
+        margin: 0 1rem;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            color: rgba(0, 0, 0, 0.5);
+        }
+
+        button {
+            padding: 0.7rem;
+            border: none;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #f4f4f4;
+        }
+
+        p {
+            font-size: 0.8rem;
+        }
+    }
+
+    img {
+        width: 130px;
+        height: 130px;
+        object-fit: contain;
+    }
+}
