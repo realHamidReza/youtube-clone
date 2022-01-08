@@ -54,7 +54,7 @@ const Header = ({ handleSidebar }) => {
                 <Apps className="headerIcon" />
                 <Notifications className="headerIcon" />
                 <img
-                    src="https://cdn2.vectorstock.com/i/1000x1000/20/76/man-avatar-profile-vector-21372076.jpg"
+                    src="https://cdn.icon-icons.com/icons2/2643/PNG/512/male_boy_person_people_avatar_icon_159358.png"
                     alt="avatar"
                     className="mx-1"
                 />
